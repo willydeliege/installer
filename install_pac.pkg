@@ -1,6 +1,7 @@
 alacritty
 base
 base-devel
+bat
 blueman
 bluez
 bluez-utils
@@ -56,6 +57,7 @@ libpulse
 libreoffice-fresh
 linux
 linux-firmware
+linux-zen
 man-pages
 mousepad
 mpv

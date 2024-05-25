@@ -14,11 +14,14 @@ git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/p
 
 git clone https://github.com/Freed-Wu/fzf-tab-source.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab-source
 
+mkdir ~/wallpaper/
+cp /usr/share/backgrounds/nordic-wallpapers/* ~/wallpaper/
+
 chezmoi init --apply willydeliege
 chezmoi apply
 systemctl  --user enable swaync.service
 
-sudo cp -r assets/interception/dual-function-keys assets/interception/udevmon.yaml /etc/interception
+sudo cp -r ./assets/interception/dual-function-keys ./assets/interception/udevmon.yaml /etc/interception
 
 sudo systemctl enable udevmon.service
 
@@ -26,4 +29,5 @@ localectl --no-convert set-x11-keymap us pc104 colemak_dh
 
 sudo systemctl enable bluetooth.service
 
+sudo cp ./assets/sddm.conf /etc/sddm.conf 
 sudo systemctl enable sddm.service 
