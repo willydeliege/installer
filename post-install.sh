@@ -17,5 +17,13 @@ git clone https://github.com/Freed-Wu/fzf-tab-source.git ${ZSH_CUSTOM:-~/.oh-my-
 chezmoi init --apply willydeliege
 chezmoi apply
 systemctl  --user enable swaync.service
+
+sudo cp -r assets/interception/dual-function-keys assets/interception/udevmon.yaml /etc/interception
+
 sudo systemctl enable udevmon.service
+
 localectl --no-convert set-x11-keymap us pc104 colemak_dh
+
+sudo systemctl enable bluetooth.service
+
+sudo systemctl enable sddm.service 
