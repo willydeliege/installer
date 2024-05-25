@@ -27,7 +27,13 @@ sudo systemctl enable udevmon.service
 
 localectl --no-convert set-x11-keymap us pc104 colemak_dh
 
+sudo cp ./assets/bluetooth/main.conf /etc/bluetooth/main.conf
+sudo cp ./assets/bluetooth-disable-before-sleep.service /etc/systemd/system 
 sudo systemctl enable bluetooth.service
+sudo systemctl enable bluetooth-disable-before-sleep.service
+
 
 sudo cp ./assets/sddm.conf /etc/sddm.conf 
 sudo systemctl enable sddm.service 
+
+notmuch new
