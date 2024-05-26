@@ -19,7 +19,6 @@ chezmoi
 cliphist
 cronie
 dolphin
-dunst
 efibootmgr
 emacs-wayland
 emote
@@ -127,6 +126,7 @@ ttf-jetbrains-mono-nerd
 tumbler
 unrar
 unzip
+ventoy-bin
 vim
 vlc
 waybar
