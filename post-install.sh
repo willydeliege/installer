@@ -26,6 +26,7 @@ sudo cp -r ./assets/interception/dual-function-keys ./assets/interception/udevmo
 sudo systemctl enable udevmon.service
 
 localectl --no-convert set-x11-keymap us pc104 colemak_dh
+localectl --no-convert set-keymap mod-dh-ansi-us 
 
 sudo cp ./assets/bluetooth/main.conf /etc/bluetooth/main.conf
 sudo cp ./assets/bluetooth-disable-before-sleep.service /etc/systemd/system 
@@ -42,3 +43,6 @@ sudo dracut-rebuild
 # sudo systemctl enable sddm.service 
 
 notmuch new
+
+git config --global user.name "Frederic Willem"
+git config --global user.email "frederic.willem@gmail.com"
