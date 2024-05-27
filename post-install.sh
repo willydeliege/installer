@@ -35,7 +35,7 @@ sudo systemctl enable bluetooth-disable-before-sleep.service
 
 # Disable autosuspend for btusb to make the bluetooth keyboard work again
 # this will erase any pre-existing contents from /etc/modprobe.d/btusb_disable_autosuspend.conf
-echo "options btusb enable_autosuspend=n" | sudo tee /etc/modprobe.d/btusb_disable_autosuspend.conf
+echo "options btusb enable_autosuspend=0" | sudo tee /etc/modprobe.d/btusb_disable_autosuspend.conf
 sudo dracut-rebuild
 
 
