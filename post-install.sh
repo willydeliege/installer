@@ -15,8 +15,16 @@ git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/p
 git clone https://github.com/Freed-Wu/fzf-tab-source.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab-source
 
 mkdir ~/wallpaper/
-# cp /usr/share/backgrounds/nordic-wallpapers/* ~/wallpaper/
 
+git clone https://codeberg.org/explosion-mental/wallust.git
+cd wallust/
+make
+sudo make install
+cd ..
+
+yay -S nordicwallpapers
+cp /usr/share/backgrounds/nordic-wallpapers/* ~/wallpaper/
+yay -R nordicwallpapers
 chezmoi init --apply willydeliege
 # chezmoi apply
 systemctl  --user enable swaync.service
@@ -36,7 +44,7 @@ sudo systemctl enable bluetooth-disable-before-sleep.service
 # Disable autosuspend for btusb to make the bluetooth keyboard work again
 # this will erase any pre-existing contents from /etc/modprobe.d/btusb_disable_autosuspend.conf
 echo "options btusb enable_autosuspend=0" | sudo tee /etc/modprobe.d/btusb_disable_autosuspend.conf
-sudo dracut-rebuild
+
 
 
 # sudo cp ./assets/sddm.conf /etc/sddm.conf 
