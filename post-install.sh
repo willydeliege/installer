@@ -22,9 +22,9 @@ make
 sudo make install
 cd ..
 
-yay -S nordicwallpapers
-cp /usr/share/backgrounds/nordic-wallpapers/* ~/wallpaper/
-yay -R nordicwallpapers
+
+cd /home/willefi/
+git clone https://github.com/willydeliege/wallpaper.git
 chezmoi init --apply willydeliege
 # chezmoi apply
 systemctl  --user enable swaync.service
@@ -41,14 +41,8 @@ sudo cp ./assets/bluetooth-disable-before-sleep.service /etc/systemd/system
 sudo systemctl enable bluetooth.service
 sudo systemctl enable bluetooth-disable-before-sleep.service
 
-# Disable autosuspend for btusb to make the bluetooth keyboard work again
-# this will erase any pre-existing contents from /etc/modprobe.d/btusb_disable_autosuspend.conf
-echo "options btusb enable_autosuspend=0" | sudo tee /etc/modprobe.d/btusb_disable_autosuspend.conf
-
-
-
-# sudo cp ./assets/sddm.conf /etc/sddm.conf 
-# sudo systemctl enable sddm.service 
+sudo cp ./assets/sddm.conf /etc/sddm.conf 
+sudo systemctl enable sddm.service 
 
 notmuch new
 

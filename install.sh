@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 sudo cp assets/pacman.conf /etc/pacman.conf
 sudo cp assets/makepkg.conf /etc/makepkg.conf
 sudo pacman -Syu
