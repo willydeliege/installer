@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
-git clone https://github.com/JaKooLit/Arch-Hyprland.git
+paru -S --needed $(cat install.pkg)
 
 

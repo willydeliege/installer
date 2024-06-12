@@ -1,2 +1,13 @@
-# installer
+* Installer
 Installer for my Arch config
+* Nord vpn
+#+BEGIN_SRC shell
+  # sudo pacman -R openresolv
+  # sudo pacman -S systemd-resolvconf
+  sudo systemctl enable --now systemd-resolved
+  sudo mv /etc/resolv.conf /etc/resolv.conf.bak
+  sudo ln -s /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+#+END_SRC
+
+#+RESULTS:
+* 
