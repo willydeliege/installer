@@ -14,19 +14,11 @@ git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/p
 
 git clone https://github.com/Freed-Wu/fzf-tab-source.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab-source
 
-mkdir ~/wallpaper/
-
-git clone https://codeberg.org/explosion-mental/wallust.git
-cd wallust/
-make
-sudo make install
-cd ..
 
 
-cd /home/willefi/
-git clone https://github.com/willydeliege/wallpaper.git
-chezmoi init --apply willydeliege
+
 # chezmoi apply
+
 # systemctl  --user enable swaync.service
 
 # sudo cp -r ./assets/interception/dual-function-keys ./assets/interception/udevmon.yaml /etc/interception
