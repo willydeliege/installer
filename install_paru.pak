@@ -6,6 +6,7 @@ hyprkeys
 interception-caps2esc-nocaps-git
 interception-space2meta
 lieer-git
+nordtray-executable-symlink-latest
 nordvpn-bin
 oh-my-zsh-git
 pam-gnupg
@@ -17,3 +18,4 @@ ttf-symbola
 wallust-git
 waybar-updates
 wlogout
+wordnet-cli
