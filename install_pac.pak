@@ -10,7 +10,6 @@ bluez-tools
 bluez-utils
 brightnessctl
 btrfs-progs
-cadaver
 calibre
 chafa
 clang
@@ -31,6 +30,7 @@ gimp
 git
 github-cli
 glib2-devel
+go
 graphviz
 grim
 grub
@@ -75,6 +75,7 @@ npm
 otf-font-awesome
 pandoc-cli
 pass
+pavucontrol
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -88,6 +89,7 @@ power-profiles-daemon
 powertop
 prettier
 python-argcomplete
+python-jupyter-core
 python-nautilus
 python-pyquery
 qt6-tools
@@ -120,7 +122,6 @@ wl-clipboard
 wlsunset
 wtype
 xclip
-xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 zip
