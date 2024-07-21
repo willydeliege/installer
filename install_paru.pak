@@ -1,4 +1,8 @@
-autojump
+alacritty-themes
+arch-update
+archlinux-themes-sddm
+auto-cpufreq
+avizo
 brave-bin
 find-the-command
 goobook
@@ -7,15 +11,11 @@ interception-caps2esc-nocaps-git
 interception-space2meta
 lieer-git
 nordvpn-bin
-oh-my-zsh-git
-paclog
 pam-gnupg
-paru
 pyprland
-sddm-catppuccin-git
-spotify-adblock
 ttf-symbola
 wallust-git
-waybar-updates
+wiki-loves-earth-wallpapers
 wlogout
 wordnet-cli
+yay-bin
