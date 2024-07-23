@@ -41,6 +41,7 @@ imagemagick
 intel-ucode
 jdk21-openjdk
 kdeconnect
+kio-fuse
 libpulse
 linux
 linux-firmware
@@ -50,6 +51,9 @@ man-pages
 mlocate
 network-manager-applet
 networkmanager
+nextcloud-client
+noto-fonts-emoji
+noto-fonts-extra
 nwg-look
 otf-font-awesome
 pacman-contrib
