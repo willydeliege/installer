@@ -26,6 +26,7 @@ fuse2
 fzf
 git
 github-cli
+go
 graphviz
 grim
 grub
@@ -75,6 +76,7 @@ qt6ct
 ripgrep
 rofi-wayland
 rofimoji
+rust
 sddm
 shellcheck
 shfmt
