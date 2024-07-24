@@ -16,7 +16,6 @@ chafa
 clang
 cliphist
 cronie
-dolphin
 efibootmgr
 emacs-wayland
 enchant
@@ -41,6 +40,7 @@ hyprlock
 imagemagick
 intel-ucode
 jdk21-openjdk
+kde-cli-tools
 kdeconnect
 kio-fuse
 libpulse
@@ -49,6 +49,7 @@ linux-firmware
 mailcap
 man-db
 man-pages
+maven
 mlocate
 network-manager-applet
 networkmanager
@@ -70,6 +71,7 @@ pkgfile
 polkit-gnome
 poppler-glib
 python-argcomplete
+python-nautilus
 python-pyquery
 qt6-tools
 qt6ct

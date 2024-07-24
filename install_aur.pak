@@ -4,6 +4,8 @@ archlinux-themes-sddm
 auto-cpufreq
 avizo
 brave-bin
+distro-grub-themes-arch
+downgrade
 find-the-command
 goobook
 hyprkeys
@@ -12,8 +14,11 @@ interception-space2meta
 lieer-git
 nordvpn-bin
 pam-gnupg
+plymouth-theme-arch-breeze-git
 pyprland
 rofi-nordvpn-git
+sddm-conf
+spotify-adblock
 ttf-symbola
 wallust-git
 wiki-loves-earth-wallpapers
