@@ -4,6 +4,7 @@ archlinux-themes-sddm
 auto-cpufreq
 avizo
 brave-bin
+btrfs-assistant
 distro-grub-themes-arch
 downgrade
 find-the-command
@@ -14,6 +15,7 @@ interception-space2meta
 lieer-git
 nordvpn-bin
 pam-gnupg
+pass-import
 plymouth-theme-arch-breeze-git
 pyprland
 rofi-nordvpn-git
