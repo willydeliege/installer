@@ -87,6 +87,7 @@ qt6ct
 ripgrep
 rofi-wayland
 rofimoji
+ruby
 rust
 sddm
 shellcheck
@@ -107,6 +108,7 @@ ttf-nerd-fonts-symbols-common
 ttf-nerd-fonts-symbols-mono
 udiskie
 unzip
+vlc
 waybar
 wget
 wireplumber
