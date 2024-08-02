@@ -144,6 +144,7 @@ gptfdisk
 graphviz
 grim
 grub
+grub-btrfs
 gsfonts
 gst-libav
 gst-plugin-pipewire
@@ -211,7 +212,6 @@ lvm2
 lz4
 lzip
 lzop
-mailcap
 maim
 make
 man-db
@@ -299,6 +299,7 @@ prettier
 pulsemixer
 pv
 python-argcomplete
+python-click
 python-nautilus
 python-pyquery
 python-pywal
@@ -326,6 +327,7 @@ simplescreenrecorder
 slop
 slurp
 smartmontools
+snapper
 sof-firmware
 squashfs-tools
 starship
