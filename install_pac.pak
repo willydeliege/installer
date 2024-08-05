@@ -9,7 +9,7 @@ breeze-gtk
 brightnessctl
 btrfs-progs
 chafa
-chromium
+clang
 cliphist
 dmidecode
 efibootmgr
@@ -20,6 +20,7 @@ fd
 fzf
 git
 github-cli
+graphviz
 grub
 grub-btrfs
 gst-plugin-pipewire
@@ -44,6 +45,8 @@ libva-intel-driver
 libva-mesa-driver
 linux
 linux-firmware
+man-db
+man-pages
 nano
 network-manager-applet
 networkmanager
@@ -52,6 +55,7 @@ notmuch
 noto-fonts
 noto-fonts-emoji
 noto-fonts-extra
+npm
 nwg-look
 otf-font-awesome
 pamixer
@@ -70,6 +74,8 @@ qt6ct
 ripgrep
 rofi-wayland
 sddm
+shellcheck
+shfmt
 smartmontools
 snapper
 sshfs
