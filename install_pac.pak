@@ -131,11 +131,10 @@ foot-terminfo
 fsarchiver
 galculator
 gcc
-geany
-geany-plugins
 ghostscript
 github-cli
 gnome-keyring
+gnome-tweaks
 gnu-netcat
 gpart
 gparted
@@ -184,6 +183,7 @@ jasper
 jfsutils
 jq
 kdeconnect
+kitty
 ksuperkey
 kvantum
 kvantum-qt5
@@ -287,7 +287,6 @@ pipewire-jack
 pipewire-pulse
 pkgconf
 pkgfile
-plank
 plymouth
 polkit
 polkit-gnome
@@ -358,7 +357,6 @@ usb_modeswitch
 usbmuxd
 usbutils
 viewnior
-vim
 vpnc
 waybar
 wireless-regdb
