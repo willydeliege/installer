@@ -1,4 +1,6 @@
 alacritty
+arc-gtk-theme
+arc-icon-theme
 base
 base-devel
 bat
@@ -20,6 +22,7 @@ fd
 fzf
 git
 github-cli
+gparted
 graphviz
 grub
 grub-btrfs
@@ -67,6 +70,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pkgfile
+polkit-gnome
 python-argcomplete
 python-nautilus
 python-pyquery
@@ -84,6 +88,7 @@ stow
 swaync
 swww
 ttf-firacode-nerd
+udiskie
 unrar
 unzip
 vim
@@ -103,6 +108,7 @@ xf86-video-ati
 xf86-video-nouveau
 xf86-video-vmware
 xorg-server
+xorg-xhost
 zip
 zoxide
 zram-generator
