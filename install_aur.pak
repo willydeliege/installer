@@ -5,6 +5,7 @@ brave-bin
 btrfs-assistant
 find-the-command
 goobook
+grub-theme-arch-linux
 hyprkeys
 interception-caps2esc-nocaps-git
 interception-space2meta
@@ -15,6 +16,8 @@ nordvpn-bin
 pam-gnupg
 pyprland
 rofi-nordvpn-git
+sddm-conf
+sddm-theme-industrial
 spotify
 spotify-adblock
 ttf-symbola

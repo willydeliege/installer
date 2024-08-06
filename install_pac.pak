@@ -70,6 +70,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pkgfile
+plymouth
 polkit-gnome
 python-argcomplete
 python-nautilus
