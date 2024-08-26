@@ -13,6 +13,7 @@ btop
 btrfs-assistant
 btrfs-progs
 calibre
+chafa
 clang
 cliphist
 cmake
@@ -24,6 +25,7 @@ efibootmgr
 emacs-wayland
 enchant
 eza
+fastfetch
 fd
 find-the-command
 foot
@@ -43,6 +45,7 @@ gtk4
 htop
 hunspell-en_us
 hunspell-fr
+hyprpicker
 imagemagick
 intel-ucode
 interception-caps2esc
@@ -60,7 +63,6 @@ libreoffice-fresh
 lieer-git
 linux
 linux-firmware
-linux-zen
 man-db
 meson
 network-manager-applet
@@ -94,6 +96,7 @@ ripgrep
 rofi
 rofi-nordvpn-git
 rofi-themes-collection-git
+rofimoji
 rust
 sddm
 shellcheck
@@ -119,6 +122,7 @@ waybar
 wireplumber
 wl-clipboard
 wlsunset
+wtype
 xdg-user-dirs
 xorg-xwayland
 yad
