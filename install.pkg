@@ -6,6 +6,7 @@ autotiling
 base
 base-devel
 bat
+beautysh
 blueman
 brave-bin
 brightnessctl
@@ -39,6 +40,7 @@ go
 goobook
 gparted
 graphviz
+grim
 grub
 gst-plugin-pipewire
 gtk4
@@ -51,6 +53,7 @@ intel-ucode
 interception-caps2esc
 interception-space2meta
 interception-tools
+jq
 kanshi
 kdeconnect
 kvantum-qt5
@@ -75,8 +78,8 @@ noto-fonts
 noto-fonts-emoji
 noto-fonts-extra
 npm
+nwg-bar
 nwg-drawer
-nwg-launchers
 nwg-look
 otf-font-awesome-4
 pam-gnupg
@@ -101,9 +104,12 @@ rust
 sddm
 shellcheck
 shfmt
+slurp
+spotify-adblock
 sshfs
 starship
 stow
+swappy
 swayfx
 swayidle
 swaylock
