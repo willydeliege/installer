@@ -1,9 +1,11 @@
+acpi
 arc-gtk-theme
 arc-icon-theme
 autotiling
 base
 base-devel
 bat
+bitwarden
 blueman
 brightnessctl
 btop
@@ -81,6 +83,7 @@ polkit-gnome
 poppler-glib
 prettier
 python-pyquery
+qalculate-gtk
 qpdf
 qt6-tools
 qt6ct
