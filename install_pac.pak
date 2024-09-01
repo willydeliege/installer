@@ -50,6 +50,7 @@ kanshi
 kdeconnect
 kvantum-qt5
 lesspipe
+libadwaita
 libpulse
 libreoffice-fresh
 linux
@@ -88,7 +89,7 @@ qpdf
 qt6-tools
 qt6ct
 ripgrep
-rofi
+rofi-wayland
 rofimoji
 rpmextract
 rust
@@ -111,11 +112,14 @@ udiskie
 unrar
 unzip
 vim
+vivaldi
+vivaldi-ffmpeg-codecs
 waybar
 wireplumber
 wl-clipboard
 wlsunset
 wtype
+xdg-desktop-portal-wlr
 xdg-user-dirs
 xorg-xwayland
 yad
