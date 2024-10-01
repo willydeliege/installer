@@ -24,4 +24,4 @@ git clone https://github.com/gauteh/lieer.git ~/Repos/lieer/
 
 sudo dnf --refresh update
 sudo dnf install gh zsh fd-find tlp tlp-rdw git vim emacs pandoc shellcheck shfmt fzf bat eza starship enchant2-devel goobook cmake libevdev-devel systemd-devel yaml-cpp-devel boost-devel notmuch-devel notmuch nextcloud-client stow htop btop python3-devel python3-pip clang-tools-extra ripgrep npm hunspell-fr pass libtool automake autoconf pkg-config m4 wl-clipboard btop htop zoxide pam-devel
-sudo dnf remove power-profiles-daemon firefox
+sudo dnf remove power-profiles-daemon firefox kwrite
